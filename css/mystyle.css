@@ -1,0 +1,90 @@
+body {
+	font-family: 'Crimson Pro', serif;
+	font-size: 20px;
+	background-image: url("../img/fundo.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+}
+.navbar{
+	background-color: #fc87ed;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.dropdown-menu{
+	background-color: #fc87ed;
+}
+.dropdown-item{
+	color: #fff;
+}
+#adventures{
+	margin-top: 30px;
+}
+.container{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.container1{
+	margin-top: 20px;
+}
+.container2{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.container3{
+	margin-top: 200px;
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
+footer{
+	background-color: #fb5de6;
+	z-index: 0;
+	padding: 10px;
+	align-items: center;
+}
+#personagem{
+	transition: 0.5s ease;
+}
+#personagem2{
+	margin-top: 5px;
+	transition: 0.5s ease;
+}
+#personagem:hover{
+	transform: scale(1.5) ;
+}
+#personagem2:hover{
+	transform: scale(1.5) ;
+}
+#box{
+	display: flex;
+	background-color: #f648bc;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+#img{
+	display: flex;	
+	margin-bottom: 40px;
+}
+#img1{
+	display: flex;
+	margin-top: 50px;
+}
+#titulos{
+	font-size: (4rem);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #650034;
+	color: #f52ca1;
+	margin-top: 50px;
+}
+#text{
+	-webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #650034;
+	text-shadow: 0.2em 0.2em 0.4em rgb(0, 36, 94);
+	font-size: 26px;
+	color: #f52ca1;
+	margin-top: 150px;
+	margin-inline-start: 40px;
+}
